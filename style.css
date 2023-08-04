@@ -14,7 +14,7 @@ h1{
     color: rgb(223, 133, 16);
 }
 
-section{
+.flex-section{
     display: flex;
     margin-bottom: 250px;
     
@@ -28,7 +28,7 @@ section{
     width: 100%;
 }
 
-
+item
 .hireme{
     text-decoration: none;
     border-radius: 8px;
@@ -48,4 +48,16 @@ section{
  background-image: url(images/dream-bg.png);
  background-repeat: no-repeat;
  background-position: right;
+}
+.experian-item{
+    width: 40%;
+    margin: 5%;
+    padding: 10px 10px 10px 10px;
+    box-shadow:10px 10px 40px gray;
+    
+}
+
+#color-border{
+    border-left:10px solid;
+    background-image: linear-gradient(blue cyan);
 }
